@@ -21,7 +21,18 @@ I built this project to practice the full MLOps lifecycle, including Docker-base
 
 ## Data
 
-I plan to use CIFAR-10 or Fashion-MNIST from [source link]. Final choice will be confirmed in the next step.
+I chose to use Kaggle's Fashion Product Images Small for this image classifer project.
+
+### Download Dataset
+
+1. Sign up and accept terms on [Kaggle](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small).
+2. Install the Kaggle CLI and create API credentials (see Kaggle instructions).
+3. Run these commands:
+```
+pip install kaggle
+kaggle datasets download -d paramaggarwal/fashion-product-images-small
+unzip fashion-product-images-small.zip -d data/
+```
 
 ## Features / Roadmap
 

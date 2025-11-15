@@ -201,3 +201,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Data
+data/
